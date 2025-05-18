@@ -22,3 +22,20 @@ sudo fuser -k 8443/tcp
 ```
 sudo scp -i your_key_pairs.pem your_path -r ec2-user@your_destination_host_ip:/home/ec2-user
 ```
+### Disk Management
+```
+
+```
+
+### Dir Management
+- Check Permission for /opt
+```
+ls -ld /opt
+```
+```
+id
+```
+- Change Permission for /opt
+```
+sudo chown <your_username>:<your_username> /opt
+```
