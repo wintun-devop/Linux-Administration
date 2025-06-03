@@ -14,3 +14,7 @@ ip addr
 ```
 lshw -class network
 ```
+### Interfaces and their packets
+```
+netstat -i
+```
