@@ -6,6 +6,9 @@ nmtui
 ```
 nmcli device status
 ```
+```
+nmcli connection show
+```
 ### ip command
 ```
 ip addr
