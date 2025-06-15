@@ -21,7 +21,16 @@ lshw -class network
 ```
 netstat -i
 ```
-### firewalld configuration
+### Check Listing Ports
+```
+sudo netstat -tunlp
+```
+### check services
+```
+sudo systemctl list-units --type=service | grep postgres
+```
+
+### firewalld configuration (Redhat,Cent,Alma,Fedora)
 - http service add
 ```
 sudo firewall-cmd --add-service=http --permanent
