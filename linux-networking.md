@@ -25,6 +25,9 @@ netstat -i
 ```
 sudo netstat -tunlp
 ```
+```
+netstat -plant | grep 3000
+```
 ### check services
 ```
 sudo systemctl list-units --type=service | grep postgres
