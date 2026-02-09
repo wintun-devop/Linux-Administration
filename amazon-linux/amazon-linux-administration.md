@@ -2,7 +2,6 @@
 ```
 sudo hostnamectl set-hostname <new-hostname>
 ```
-
 ### Permission for  current directory
 ```
 ls -ld $(pwd)
@@ -19,8 +18,13 @@ netstat -tulpn | grep :8443
 sudo fuser -k 8443/tcp
 ```
 ### Copy file between host using scp
+- base on keypair
 ```
 sudo scp -i your_key_pairs.pem your_path -r ec2-user@your_destination_host_ip:/home/ec2-user
+```
+-base on password
+```
+sudo scp  -r /home/youruser/YourFolderToCopy remote_user@remote_host_ip:/home/youruser/
 ```
 ### Disk Management
 ```
