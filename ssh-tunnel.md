@@ -45,8 +45,14 @@ User=sysadmin
 WantedBy=multi-user.target
 ```
 ```
+sudo systemctl daemon-reload
+```
+```
 sudo systemctl enable ssh-tunnel
 ```
 ```
 sudo systemctl start ssh-tunnel
+```
+```
+sudo systemctl status ssh-tunnel
 ```
