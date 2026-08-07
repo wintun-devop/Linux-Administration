@@ -43,3 +43,7 @@ id
 ```
 sudo chown <your_username>:<your_username> /opt
 ```
+### check folder size
+```
+du -sh your_folder
+```
