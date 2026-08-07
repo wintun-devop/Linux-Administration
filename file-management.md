@@ -20,3 +20,7 @@ ls -l | grep -c '^-'
 ```
 echo "Dirs: $(ls -l | grep -c '^d') Files: $(ls -l | grep -c '^-') Total: $(($(ls -l | wc -l)-1))"
 ```
+### check your folder size
+```
+du -sh your_folder
+```
